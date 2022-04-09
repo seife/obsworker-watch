@@ -1,0 +1,6 @@
+[Unit]
+Description=obsworker statistics
+
+[Service]
+ExecStart=/usr/local/sbin/obsworker-watch
+StandardInput=socket

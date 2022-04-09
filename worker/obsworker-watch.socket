@@ -1,0 +1,9 @@
+[Unit]
+Description=obsworker statistics
+
+[Socket]
+ListenStream=4242
+Accept=Yes
+
+[Install]
+WantedBy=sockets.target
